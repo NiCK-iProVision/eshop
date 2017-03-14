@@ -1,0 +1,544 @@
+body {
+background-image: url('obr/bg.jpg');
+background-position: top center;
+ background-attachment: fixed;
+background-color: white;
+font-family: Arial;
+font-size: 12px;)
+color: #f5f5f5;
+}
+.zahlavi {
+  width: 1000px;
+  height: 130px;
+  margin: 0 auto;
+  position: relative;
+}
+.obj {
+  color: #565656;
+font-weight: bold;
+font-size: 13px;
+letter-spacing: 1px;
+}
+.telo {
+width: 1000px;
+background: #fff;
+height:auto;
+min-height:30px;
+height:auto !important;
+height:30px;
+margin: 0 auto;
+border-radius: 3px;
+border: 1px solid #4c4c4c;
+border-top: 6px solid #4c4c4c;
+border-bottom: 6px solid #4c4c4c;
+}
+.pridano_do_kosiku {
+  background: #b90000;
+width: 30px;
+height: 30px;
+border-radius: 30px;
+line-height: 30px;
+text-align: center;
+color: white;
+font-size: 21px;
+font-weight: bold;
+border: 1px solid #afafaf;
+position: absolute;
+top: 15px;
+left: 730px;
+z-index: 99;
+display: none;
+}
+.k_cena_style {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 13px;
+  float: left;
+  padding-left: 5px;
+}
+.pokracuj {
+  display: block;
+    border: 1px solid #0167b1;
+    border-left: 3px solid #026ab3;
+    border-right: 3px solid #0169b2;
+    border-radius: 3px;
+    background: #ececec;
+    width: 174px;
+    height: 26px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: right;
+    color: black;
+    position: relative;
+    top: -9px;
+}
+.td_k {
+  border: 1px solid black;
+  padding: 2px;
+  height: 25px;
+}
+.k_cena_style2 {
+  float: left;
+}
+.plus {
+  color: green;
+font-weight: bold;
+font-size: 15px;
+cursor: pointer;
+}
+.k_prazdny {
+  width: 100%;
+text-align: center;
+font-size: 15px;
+letter-spacing: 1px;
+}
+.minus {
+  color: red;
+font-weight: bold;
+font-size: 15px;
+cursor: pointer;
+}
+.k_cena {
+  color: dimgrey;
+    letter-spacing: 1px;
+}
+.k_nazev {
+  color: #018dda;
+text-decoration: none;
+font-size: 12px;
+}
+.k_smaz {
+  color: #da5656;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.potvrdit {
+  border: 1px solid #0166ae;
+    padding: 6px;
+    background: #f1f1f1;
+    color: #006fb7;
+}
+.kosik_radek {
+  background: #ececec;
+  padding: 0px 19px 0px 19px;
+  color: black;
+  border-radius: 2px;
+  display: table;
+  width: 719px;
+  height: 26px;
+  margin: 9px;
+  border: 1px solid #afafaf;
+}
+.zapati {
+width: 1000px;
+height: 50px;
+margin: 0 auto;
+}
+.logo {
+  position: absolute;
+  top: 23px;
+  left: 48px;
+  font-size: 64px;
+  color: white;
+  text-shadow: #000 0px 1px 5px;
+}
+.podnadpis {
+  position: absolute;
+  top: 86px;
+  left: 115px;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 9px;
+  text-shadow: #000 0px 1px 3px;
+}
+.menu {
+width: 200px;
+height:auto;
+min-height:30px;
+height:auto !important;
+height:30px;
+background: #f5f5f5;
+float:left;
+}
+a.polozka {
+  height: 35px;
+  width: 185px;
+  letter-spacing: 1px;
+  display: block;
+  padding-left: 15px;
+  text-decoration: none;
+  line-height: 34px;
+  border-bottom: 1px solid #b7b7b7;
+  border-top: 1px solid white;
+  color: #5d5d5d;
+  font-size: 13px;
+  background: #ececec;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+  a.polozka:hover {
+  background: #f9f9f9;
+ // text-decoration: underline;
+  color: #0098e4;
+//  border-color: #019ae6;
+  padding-left: 20px;
+  width: 180px;
+  -webkit-transition: all 0.2s ease-in-out;
+   -moz-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+  .hledat_submit {
+  background: url('obr/lupa.png');
+  background-size: 20px 20px;
+  background-position: 4px;
+  background-repeat: no-repeat;
+  border: 1px solid #019ae6;
+  background-color: #019ae6;
+  width: 31px;
+      height: 32px;
+      position: relative;
+      top: 6px;
+  left: -1px;
+  }
+   .hledat_input {
+  width: 156px;
+  padding: 0;
+  padding-left: 5px;
+  margin: 0;
+  height: 30px;
+  background: #f1f1f1;
+  border: 1px solid #019ae6;
+  color: #4c4c4c;
+  position: relative;
+  left: 3px;
+  top: -4px;
+  }
+  .hledat {
+  border-bottom: 1px solid #b7b7b7;
+  margin-bottom: 0em;
+  }
+  .zapati {
+  width: 975px;
+  height: 35px;
+  margin: 0 auto;
+  color: white;
+  line-height: 31px;
+  padding-left: 25px;
+  text-shadow: #000 0px 0px 2px;
+  }
+  .odkaz_z {
+  color: white;
+  }
+  .obsah {
+  float: left;
+  border-left: 1px solid #b7b7b7;
+  width: 795px;
+      min-height: 530px;
+  }
+  .clear {
+  clear: both;
+  }
+  .prihlaseni {
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: none;
+  }
+  .prihl_tab {
+  width: 500px;
+  height: 220px;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 3px;
+  border: 1px solid #4c4c4c;
+  border-top: 6px solid #4c4c4c;
+  border-bottom: 6px solid #4c4c4c;
+  top: 50%;
+  margin-top: -110px;
+  position: relative;
+  display: none;
+  position: relative;
+  }
+  #login2 {
+  color: red;
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  }
+  #login {
+  display: block;
+  border: 1px solid #4c4c4c;
+  border-left: 3px solid #4c4c4c;
+  border-right: 3px solid #4c4c4c;
+  border-radius: 3px;
+  background: white;
+  width: 105px;
+  height: 26px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  color:black;
+  }
+  #registrace {
+  display: block;
+  border: 1px solid #4c4c4c;
+  border-left: 3px solid #4c4c4c;
+  border-right: 3px solid #4c4c4c;
+  border-radius: 3px;
+  background: white;
+  width: 105px;
+  height: 26px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  right: 140px;
+  top: 0px;
+  color:black;
+  }
+  .reg_err {
+    width: calc(100% + 5px);
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: red;
+    letter-spacing: 3px;
+    background: rgba(76, 76, 76, 0.91);
+  }
+    .reg_ok {
+    width: calc(100% + 5px);
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: red;
+    letter-spacing: 3px;
+    background: rgba(76, 76, 76, 0.91);
+  }
+  .b_box {
+    width: 200px;
+    margin: 5px;
+    height: 25px;
+    background: #f1f1f1;
+    padding: 5px;
+    border: 1px solid #019ae6;
+    color: #4c4c4c;
+  }
+  .a_box {
+    width: 700px;
+    margin: 5px;
+    height: 25px;
+    background: #f1f1f1;
+    padding: 5px;
+    letter-spacing: 2px;
+    border: 1px solid #019ae6;
+    color: #0074bd;
+  }
+  .log_box {
+    width: 200px;
+    height: 25px;
+    background: #f1f1f1;
+    padding: 5px;
+    border: 1px solid #019ae6;
+    color: #4c4c4c;
+  }
+  .nepov {
+    position: relative;
+    top: -104px;
+    left: 224px;
+    color: #7d7d7d;
+    font-size: 11px;
+  }
+  .r_box {
+    width: 700px;
+    height: 25px;
+    background: #f1f1f1;
+    padding: 5px;
+    letter-spacing: 2px;
+    border: 1px solid #019ae6;
+    color: #0074bd;
+  }
+  .n_panel {
+    font-size: 20px;
+padding: 10px 10px 0px 10px;
+letter-spacing: 3px;
+color: #026ab3;
+  }
+  .o_panel {
+    padding: 8px;
+  }
+  .kosik {
+  display: block;
+  border: 1px solid #4c4c4c;
+  border-left: 3px solid #4c4c4c;
+  border-right: 3px solid #4c4c4c;
+  border-radius: 3px;
+  background: white;
+  width: 105px;
+  height: 26px;
+  line-height: 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  right: 140px;
+  top: 0px;
+  color:black;
+  }
+  .polozka_prodej {
+  width: 32%;
+  padding: 5px;
+  height: 300px;
+  float:left;
+  position:relative;
+  background: #fff;
+  border-right: 0px solid #b7b7b7;
+  border-bottom: 0px solid #b7b7b7;
+  }
+  .jmeno {
+    position: absolute;
+top: 23px;
+right: 140px;
+color: #fdfdfd;
+letter-spacing: 1px;
+width: 111px;
+text-align: center;
+  }
+  .avt {
+    position: absolute;
+    right: 158px;
+    top: 56px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #4c4c4c;
+    border-left: 3px solid #4c4c4c;
+    border-right: 3px solid #4c4c4c;
+    border-radius: 3px;
+  }
+  .odhlasit {
+    border: 1px solid #4c4c4c;
+border-left: 3px solid #4c4c4c;
+border-right: 3px solid #4c4c4c;
+border-radius: 3px;
+background: white;
+width: 111px;
+height: 26px;
+line-height: 25px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+position: absolute;
+right: 20px;
+top: 39px;
+color: black;
+  }
+  .polozka_obr {
+  width: 100%;
+  height: 161px;
+  background: white;
+  border-bottom: 0px solid #b7b7b7;
+  overflow: hidden;
+  border-top: 0px solid #b7b7b7;
+  }
+  .polozka_nazev {
+  color: #019ae6;
+  font-size: 15px;
+  letter-spacing: 1;
+  width: calc(100% - 5px);
+  height: 24px;
+  line-height: 24px;
+  padding-left: 5px;
+  }
+  .polozka_cena {
+  position: absolute;
+  bottom: 8px;
+  left: 7px;
+  color: #019ae6;
+  font-size: 15px;
+  }
+  .polozka_kup {
+position: absolute;
+  bottom: 4px;
+  right: 4px;
+  display: block;
+  width: 90px;
+  font-family: monospace;
+  text-align: center;
+  background: #019ae6;
+  color: white;
+  height: 23px;
+  font-size: 14px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  line-height: 23px;
+  border-radius: 3px;
+}
+  .polozka_popis {
+  padding: 4px;
+  color: #868686;
+  }
+  .prihl {
+  font-size: 20px;
+  letter-spacing: 3px;
+  padding: 0px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  color: #019ae6;
+  }
+  .box1 {
+  width: 250px;
+  padding: 6px;
+  background: #f1f1f1;
+  border: 1px solid #019ae6;
+  margin: 7px;
+  position: absolute;
+  left: calc(50% - 125px);
+  top: 50px;
+  }
+  .box2 {
+  width: 250px;
+  padding: 6px;
+  background: #f1f1f1;
+  border: 1px solid #019ae6;
+  margin: 7px;
+  position: absolute;
+  left: calc(50% - 125px);
+  top: 100px;
+  }
+  .box3 {
+  width: 250px;
+  padding: 6px;
+  background: #f1f1f1;
+  border: 1px solid #019ae6;
+  margin: 7px;
+  position: absolute;
+  left: calc(50% - 125px);
+  top: 145px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #019ae6;
+  }
+  @-moz-document url-prefix() {
+    .hledat_input{
+       top: 5px;
+    }

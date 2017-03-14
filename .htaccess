@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteRule    ^produkt/(.*)    produkt.php?id=$1
+RewriteRule    ^kategorie/(.*)    kategorie.php?kat=$1
+RewriteRule    ^profil/(.*)    profil.php?id=$1
+RewriteRule    ^kosik/    kosik.php
+RewriteRule    ^registrace/    registrace.php
+RewriteRule    ^objednavka/1/    objednavka.php
+RewriteRule    ^objednavka/2/    shrnuti.php
